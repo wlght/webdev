@@ -276,6 +276,7 @@
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+    overflow: hidden;
 }
 
 
