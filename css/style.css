@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Header Section  */
+
+.body {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top-header {
+    background-image: url(/assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-div {
+    width: 998px;
+    height: 714px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.headline {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header-paragraph {
+    width: 852px;
+    height: 52px;
+    text-align: center;
+    color: #0D1321;
+}
+
+.contact-btn {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background: rgb(13, 19, 33);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+/* Done with Header Section  */
+
+/* Why web development */
+
+
+
+
+.content-boss {
+    width: 1140px;
+    height: 1395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin-top: 75px;
+    color: #0D1321B3;
+}
+
+.content {
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+
+.why-web {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+
+
+.first-box {
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-world {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.change-world-content {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.change-world-content button {
+    width: 150px;
+    height: 48px;
+    border: solid 2px black;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+}
+
+/* Second Box */
+
+.second-box {
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(-90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-world {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.help-world-content {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.help-world-content button {
+    width: 150px;
+    height: 48px;
+    border: solid 2px black;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+}
+
+
+/* Second Box Off */
+
+
+/* Third Box */
+.third-box {
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-world {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.code-world-content {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.code-world-content button {
+    width: 150px;
+    height: 48px;
+    border: solid 2px black;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+}
+
+/* Third Box Off */
+
+
+/* Third Section On */
+
+.inspiration {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+
+}
+
+
+.ins-content {
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.bhai-video {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: solid 0.5px black;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Third SEction Off */
