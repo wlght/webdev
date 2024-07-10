@@ -99,6 +99,10 @@
     gap: 24px;
 }
 
+.why-web h1 {
+    color: black;
+}
+
 
 
 
@@ -484,7 +488,7 @@
     height: 313px;
     margin-top: 30px;
     background: rgba(0, 0, 0, 0.2);
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -551,7 +555,7 @@
 
 /* Help Form Off */
 
-.footer {
+#footer {
     width: 1440px;
     height: 100px;
     border-radius: 16px;
