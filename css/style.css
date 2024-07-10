@@ -285,28 +285,26 @@
 /* Section Four On */
 
 .section-four {
-    margin-top: 151px;
     width: 1140px;
-    height: 460px;
+    height: 866px;
+    margin-top: 151px;
 }
 
 .section-four-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 48px;
 }
 
 .current-target {
-    width: 946px;
+    width: 852px;
     height: 113px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 24px;
 }
 
 .current-target p {
@@ -315,8 +313,9 @@
 }
 
 .languages {
+    width: 1140px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     gap: 24px;
 }
@@ -390,3 +389,89 @@
 
 
 /* Section Four Off */
+
+
+/* Section Five On */
+
+.section-five {
+    margin-top: 111px;
+    width: 1140px;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.five-content {
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+
+.five-content p {
+    opacity: 0.7;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.react-main {
+    width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-content {
+    width: 1060px;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-uni {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.content-uni h1 {
+    font-size: 24px;
+}
+
+.content-uni p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.react-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Section Five Off */
